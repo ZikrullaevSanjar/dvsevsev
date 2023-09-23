@@ -1,0 +1,43 @@
+
+
+.Slider{
+  margin: auto;
+  max-width: 1496px;
+  width: 100%;
+  margin-left: 200px;
+}
+
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mySwiper {
+    object-position: left;
+    object-fit: cover ;
+    max-width: 929px;
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    svg{
+      max-width: 967px;
+        width: 100%;
+        height: 450px;
+    }
+
+}
+
+  
